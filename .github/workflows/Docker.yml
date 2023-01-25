@@ -27,6 +27,7 @@ jobs:
         context: .
         # Path to the Dockerfile
         file: ./Dockerfile
+        pull: false
         push: true
         # List of tags
         tags: yugolemom/go_ci:${{github.ref_name}}
